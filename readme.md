@@ -5,7 +5,7 @@ Welcome to **Kratos Academy** – your one-stop learning hub for **Full Stack De
 
 ---
 
-## 🧑‍💻 What We Teach
+## 🧑‍💻 What I Teach
 
 ### 🚀 Full Stack Development
 - **Node.js**: From REST APIs to real-time apps, master JavaScript on the server!
