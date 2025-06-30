@@ -19,8 +19,8 @@ Welcome to **Kratos Academy** – your one-stop learning hub for **Full Stack De
   - Deep-dive into VPC, IAM, multi-region, DR, and hybrid architectures  
   - Cost optimization and enterprise patterns
 
-### 🛠️ DevOps — **Kubernetes Professional Level**
-- **DevOps Foundations:**  
+### 🛠️ DevOps — **Professional Level**
+- **DevOps Ninja:**  
   CI/CD, automation, secrets management, infra as code (Terraform, Ansible)
 - **Kubernetes Mastery:**  
   - CKA/CKAD/CKS-level cluster management  
