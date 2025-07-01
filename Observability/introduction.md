@@ -1,23 +1,75 @@
-![](C:\Users\gulat\AppData\Roaming\marktext\images\2025-07-02-05-00-36-image.png)
+# Foundations of Observability
 
-# `WE will not be able to progress with incremental improvement as developers wont be ablle to work on multiple parts of the application concurrently`
+### --- EVOLUTION OF APPLICATION ARCHITECTURE ---
+
+# `MONOLITHIC ARCHITECTURE`
+
+---
+
+> User Interface
+> 
+> Business Logic
+> 
+> Data access layer ------------------------>  DATABASE
+
+All services in one application 
+
+User interface and business logic in one application
+
+All services shared one database
+
+> TO MAKE A CHANGE  $Entire Application$ was deployed
+> 
+> Incremental improvement was time consuming
 
 
 
-![](C:\Users\gulat\AppData\Roaming\marktext\images\2025-07-02-05-02-56-image.png)
+# `MICROSERVICE ARCHITECTURE`
 
-![](C:\Users\gulat\AppData\Roaming\marktext\images\2025-07-02-05-03-26-image.png)
+---
 
-# `In waterfall we can not deploy our software untill fully build`
+> User Interface 
+> 
+> /           |        \ 
+> 
+> Micro   Micro  Micro 
+> 
+> |           |          |
+> 
+> DB       DB      DB
 
-![](C:\Users\gulat\AppData\Roaming\marktext\images\2025-07-02-05-04-32-image.png)
+Individual services
 
-![](C:\Users\gulat\AppData\Roaming\marktext\images\2025-07-02-05-04-49-image.png)
+Each service has its own storage
 
-# `DEVOPS lifecyle is short and fast`
+UI and services are separate
 
-![](C:\Users\gulat\AppData\Roaming\marktext\images\2025-07-02-05-05-24-image.png)
+>  Changescan be deployed without deploying the entiresoftware
+> 
+> Development on services can be done simultaneously
+> 
+> 
 
-# `When we deal with higher number of microservices, there is a higher chance of intra service failure`
+#### Previously we were using Agile or WaterFall methodology
+
+### NOW WE ARE SHIFTING TO DEVOPS
+
+> DevOps methodology helps us to understand the requirements and make the application architecture (plan , code , deploy, build , test) everything much faster way and continous way.
+
+# Why are CI/CD and Microservices relevant to observability?
+
+- #### Many SERVICES to monitor
+
+- #### INTRA-SERVICE communications can fail
+
+- #### More vulnerable to sercurity threats
+
+- #### More changes are deployed
+
+
+
+ 
+
+
 
 
