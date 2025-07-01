@@ -60,11 +60,11 @@ UI and services are separate
 
 - #### Many SERVICES to monitor
 
-- ### INTRA-SERVICE communications can fail
+- #### INTRA-SERVICE communications can fail
 
-- ### More vulnerable to sercurity threats
+- #### More vulnerable to sercurity threats
 
-- ### More changes are deployed
+- #### More changes are deployed
 
 
 
