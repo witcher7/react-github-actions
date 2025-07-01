@@ -1,8 +1,8 @@
 # Foundations of Observability
 
-### --- EVOLUTION OF APPLICATION ARCHITECTURE ---
+### `EVOLUTION OF APPLICATION ARCHITECTURE `
 
-# `MONOLITHIC ARCHITECTURE`
+### `MONOLITHIC ARCHITECTURE`
 
 ---
 
@@ -24,7 +24,7 @@ All services shared one database
 
 
 
-# `MICROSERVICE ARCHITECTURE`
+###`MICROSERVICE ARCHITECTURE`
 
 ---
 
