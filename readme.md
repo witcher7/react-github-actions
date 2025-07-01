@@ -8,11 +8,13 @@ Welcome to **Kratos Academy** – your one-stop learning hub for **Full Stack De
 ## 🧑‍💻 What I Teach
 
 ### 🚀 Full Stack Development
+
 - **Node.js**: From REST APIs to real-time apps, master JavaScript on the server!
 - **Golang**: Build ultra-fast, scalable services in one of the hottest languages.
 - **Python Frameworks**: Django, Flask, FastAPI – for everything from web dev to AI.
 
 ### ☁️ Cloud Engineering — **Architect Level**
+
 - **AWS, GCP, Azure:**  
   Master cloud at architect level:  
   - Design secure, scalable, and highly-available solutions  
@@ -20,6 +22,7 @@ Welcome to **Kratos Academy** – your one-stop learning hub for **Full Stack De
   - Cost optimization and enterprise patterns
 
 ### 🛠️ DevOps — **Professional Level**
+
 - **DevOps Ninja:**  
   CI/CD, automation, secrets management, infra as code (Terraform, Ansible)
 - **Kubernetes Mastery:**  
@@ -28,6 +31,7 @@ Welcome to **Kratos Academy** – your one-stop learning hub for **Full Stack De
   - Real production scenarios and troubleshooting
 
 ### ⚡ Serverless — **Kratos Level**
+
 - **Serverless Architectures:**  
   - AWS Lambda, API Gateway, DynamoDB, EventBridge, Step Functions  
   - Build, deploy, and scale serverless apps like a true demigod  
@@ -63,5 +67,7 @@ Welcome to **Kratos Academy** – your one-stop learning hub for **Full Stack De
 ## 🚦 Get Started
 
 1. **Clone the Repo**  
+   
    ```bash
    git clone https://github.com/yourusername/kratos-academy.git
+   ```
