@@ -36,9 +36,9 @@ Your one-stop learning hub for **Full Stack Development, Architect-Level Cloud, 
   - AWS Lambda, API Gateway, DynamoDB, EventBridge, Step Functions  
   - Build, deploy, and scale serverless apps like a true demigod  
   - Design patterns, event-driven systems, SaaS, and microservices
-
----
+    
 - **Multiple backend frameworks** with *production-ready* code (Node.js, Go, Django, Flask, FastAPI)
+  
 - **SRE Architect learning folder**:  
   - Pro DevOps tools: Terraform, Ansible, Docker, K8s, CI/CD  
   - DevSecOps: Trivy, OPA, Kube-bench, sealed-secrets, SOPS  
@@ -46,7 +46,9 @@ Your one-stop learning hub for **Full Stack Development, Architect-Level Cloud, 
   - GitOps: ArgoCD, FluxCD  
   - Cloud blueprints: AWS, GCP, Azure
   - Job scenarios: Real-world production drills, incident handling, troubleshooting
+    
 - **Serverless Architectures**: Lambda, EventBridge, DynamoDB, best patterns
+
 - **No institute**: Pure learning, open for students, self-paced, with step-by-step guides & hands-on projects
 
 ## 💡 Who’s This For?
