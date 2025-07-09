@@ -1,7 +1,7 @@
-# ⚡️ Kratos Academy
+# ⚡️ SRE Architect
 
 **Level up your tech game!**  
-Welcome to **Kratos Academy** – your one-stop learning hub for **Full Stack Development, Architect-Level Cloud, Pro DevOps (with Kubernetes), and next-level Serverless**. Here, we don't just teach code—we train real warriors for the modern tech battlefield.
+Your one-stop learning hub for **Full Stack Development, Architect-Level Cloud, Pro DevOps (with Kubernetes), and next-level Serverless**. Here, I don't just teach code—I train real warriors for the modern tech battlefield.
 
 ---
 
@@ -38,17 +38,22 @@ Welcome to **Kratos Academy** – your one-stop learning hub for **Full Stack De
   - Design patterns, event-driven systems, SaaS, and microservices
 
 ---
+- **Multiple backend frameworks** with *production-ready* code (Node.js, Go, Django, Flask, FastAPI)
+- **SRE Architect learning folder**:  
+  - Pro DevOps tools: Terraform, Ansible, Docker, K8s, CI/CD  
+  - DevSecOps: Trivy, OPA, Kube-bench, sealed-secrets, SOPS  
+  - Observability: Prometheus, Grafana, Loki, Tempo, Mimir, EFK/ELK  
+  - GitOps: ArgoCD, FluxCD  
+  - Cloud blueprints: AWS, GCP, Azure
+  - Job scenarios: Real-world production drills, incident handling, troubleshooting
+- **Serverless Architectures**: Lambda, EventBridge, DynamoDB, best patterns
+- **No institute**: Pure learning, open for students, self-paced, with step-by-step guides & hands-on projects
 
-## 🏆 Why Kratos Academy?
+## 💡 Who’s This For?
 
-- **Real-world Projects**  
-  No boring theory—just actual apps, pipelines, and deployments you can flex on your portfolio.
-
-- **Step-by-Step Guides**  
-  Every lesson is beginner-friendly and builds to advanced ninja skills.
-
-- **Community Support**  
-  Join a gang of learners. Ask questions, get feedback, and grow together.
+- Students aiming to become **true SRE/DevOps architects**
+- Self-learners prepping for real production environments & interviews
+- Anyone tired of “theory-only” and wants **hands-on battle skills**
 
 ---
 
