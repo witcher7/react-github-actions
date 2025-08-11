@@ -1,0 +1,9 @@
+name: hello
+on: workflow_dispatch
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Say hello
+        run: echo "Hello, $GITHUB_ACTOR from $GITHUB_REPOSITORY!"
