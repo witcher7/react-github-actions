@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "${{ env.APP_NAME }}@${{ env.STAGE }} by $GITHUB_ACTOR"
-      - name: Derived var
-        run: |
-          echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
-      - run: echo "Commit short: $SHORT_SHA"
+      - name: Set SHORT_SHA
+        run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
+      - name: Print short commit
+        run: echo "Commit short: $SHORT_SHA"
