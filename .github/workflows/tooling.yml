@@ -1,17 +1,1 @@
-name: tooling
-on: [push]
-jobs:
-  versions:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Show OS
-        run: uname -a
-      - name: Node & npm
-        run: node -v && npm -v
-      - name: Python & pip
-        run: python3 --version && pip3 --version
-      - name: Go
-        run: go version
-      - name: Docker & kubectl
-        run: docker --version && kubectl version --client
+
