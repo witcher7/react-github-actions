@@ -70,11 +70,3 @@ Your one-stop learning hub for **Full Stack Development, Architect-Level Cloud, 
 - Serverless SaaS apps and event-driven systems
 
 ---
-
-## 🚦 Get Started
-
-1. **Clone the Repo**  
-   
-   ```bash
-   git clone https://github.com/yourusername/kratos-academy.git
-   ```
