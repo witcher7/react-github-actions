@@ -11,4 +11,4 @@ jobs:
       - name: Set SHORT_SHA
         run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
       - name: Print short commit
-        run: echo "Commit short: $SHORT_SHA"
+        run: echo "Commit short:$SHORT_SHA"
