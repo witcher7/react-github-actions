@@ -1,16 +1,14 @@
-name: new-workflow
-on: push
-jobs: 
-    tests:
-        runs-on: ubuntu-lastest
-        steps:
-            - name: GetCode
-              uses: actions/checkout@v3
-            - name: Install Nodejs
-              uses: actions/setup-node@v3
-              with: 
-                node-version: 18
-            - name: Install dependencies
-              run: npm CI
-            - name: Run Tests
-              run: npm test
+name: env-basics
+on: workflow_dispatch
+env:
+  APP_NAME: sample
+  STAGE: dev
+jobs:
+  show:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "${{ env.APP_NAME }}@${{ env.STAGE }} by $GITHUB_ACTOR"
+      - name: Derived var
+        run: |
+          echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
+      - run: echo "Commit short: $SHORT_SHA"
