@@ -1,14 +1,33 @@
-name: env-basics
-on: workflow_dispatch
-env:
-  APP_NAME: sample
-  STAGE: dev
+name: Deploy website
+on:
+  push:
+    branches:
+      - main
 jobs:
-  show:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${{ env.APP_NAME }}@${{ env.STAGE }} by $GITHUB_ACTOR"
-      - name: Set SHORT_SHA
-        run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
-      - name: Print short commit
-        run: echo "Commit short:$SHORT_SHA"
+      - name: Get code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm ci
+      - name: Lint code
+        run: npm run lint
+      - name: Test code
+        run: npm run test
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm ci
+      - name: Build website
+        run: npm run build
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy
+        run: echo "Deploying..."
